@@ -20,9 +20,9 @@ Voici la mise à jour du plan de nommage, en ajoutant **Serveur** à la catégor
 |-------------------------------|-------------|-------------------------------|
 | **Laptop**                     | LTP         | **LTP68COL05** (Laptop #5, Colmar, 68)  |
 | **Tablette**                   | TAB         | **TAB68COL03** (Tablette #3, Colmar, 68)  |
-| **Ordinateur**                 | PC          | **PC68COL12** (Ordinateur #12, Colmar, 68)  |
+| **Ordinateur**                 | PDT          | **PDT68COL12** (Ordinateur #12, Colmar, 68)  |
 | **Imprimante**                 | PRN         | **PRN68COL04** (Imprimante #4, Colmar, 68)  |
-| **Télévision**                 | TV          | **TV68COL02** (Télévision #2, Colmar, 68)  |
+| **Télévision**                 | TLV          | **TLV68COL02** (Télévision #2, Colmar, 68)  |
 | **Téléphone IP**               | TEL         | **TEL68COL08** (Téléphone IP #8, Colmar, 68)  |
 | **Serveur**                    | SRV         | **SRV68COL01** (Serveur #1, Colmar, 68)  |
 
