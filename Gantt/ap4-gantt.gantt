@@ -1,0 +1,176 @@
+{
+  "data": [{
+    "TaskID": 1,
+    "TaskName": "Sécurisation et Interconnexion des Systèmes d'Information du SIDSIC 68",
+    "StartDate": "2025-01-10T08:00:00.000Z",
+    "EndDate": "2025-04-08T13:00:00.000Z",
+    "Duration": 25,
+    "Progress": 41,
+    "color": "331",
+    "Predecessor": null,
+    "resources": [
+      {"resourceId": "Maximilian NEU", "resourceName": "Maximilian NEU", "unit": 100},
+      {"resourceId": "Taki-Eddine SAOULI", "resourceName": "Taki-Eddine SAOULI", "unit": 100}
+    ],
+    "info": "<p><br></p>",
+    "DurationUnit": "day",
+    "subtasks": [
+      {
+        "TaskID": 2,
+        "TaskName": "Phase 1 : Préparation et Planification",
+        "StartDate": "2025-01-10T08:00:00.000Z",
+        "EndDate": "2025-01-24T14:00:00.000Z",
+        "Duration": 4,
+        "Progress": 100,
+        "color": "301",
+        "Predecessor": "",
+        "resources": [
+          {"resourceId": "Maximilian NEU", "resourceName": "Maximilian NEU", "unit": 100},
+          {"resourceId": "Taki-Eddine SAOULI", "resourceName": "Taki-Eddine SAOULI", "unit": 100}
+        ],
+        "info": "<p>Définition des besoins et analyse du projet<br>Répartition des rôles et responsabilités<br>Validation des solutions techniques et commerciales<br>Élaboration du planning détaillé<br>Acquisition et validation des ressources</p>",
+        "DurationUnit": "day"
+      },
+      {
+        "TaskID": 3,
+        "TaskName": "Phase 2 : Conception et Architecture",
+        "StartDate": "2025-01-28T08:00:00.000Z",
+        "EndDate": "2025-02-14T14:00:00.000Z",
+        "Duration": 6,
+        "Progress": 100,
+        "color": "301",
+        "Predecessor": "2FS",
+        "resources": [
+          {"resourceId": "Maximilian NEU", "resourceName": "Maximilian NEU", "unit": 100}
+        ],
+        "info": "<p>Conception de l'architecture réseau et de sécurité<br>Réalisation du schéma réseau<br>Définition des configurations<br>Rédaction des spécifications techniques<br>Comparatif des solutions</p>",
+        "DurationUnit": "day"
+      },
+      {
+        "TaskID": 4,
+        "TaskName": "Phase 3 : Mise en place de l'Infrastructure",
+        "StartDate": "2025-02-07T08:00:00.000Z",
+        "EndDate": "2025-02-28T13:00:00.000Z",
+        "Duration": 6,
+        "Progress": 50,
+        "color": "241",
+        "Predecessor": "3SS+4",
+        "resources": [
+          {"resourceId": "Maximilian NEU", "resourceName": "Maximilian NEU", "unit": 100},
+          {"resourceId": "Taki-Eddine SAOULI", "resourceName": "Taki-Eddine SAOULI", "unit": 100}
+        ],
+        "info": "<p>Installation Proxmox<br>Déploiement VMs<br>Configuration Windows Services<br>Configuration Dynfi<br>Mise en place règles pare-feu</p>",
+        "DurationUnit": "day"
+      },
+      {
+        "TaskID": 5,
+        "TaskName": "Phase 4 : Sécurisation et Surveillance",
+        "StartDate": "2025-01-28T07:00:00.000Z",
+        "EndDate": "2025-02-14T13:00:00.000Z",
+        "Duration": 6,
+        "Progress": 10,
+        "color": "241",
+        "Predecessor": "2FS",
+        "resources": [
+          {"resourceId": "Taki-Eddine SAOULI", "resourceName": "Taki-Eddine SAOULI", "unit": 100}
+        ],
+        "info": "<p>Déploiement MECM<br>Configuration Elastic Security<br>Configuration des alertes<br>Mise en place Grafana</p>",
+        "DurationUnit": "day"
+      },
+      {
+        "TaskID": 6,
+        "TaskName": "Phase 5 : Déploiement des Services Complémentaires",
+        "StartDate": "2025-02-25T07:00:00.000Z",
+        "EndDate": "2025-03-07T13:00:00.000Z",
+        "Duration": 4,
+        "Progress": 20,
+        "color": "241",
+        "Predecessor": "4FS-2,5FS-2",
+        "resources": [
+          {"resourceId": "Maximilian NEU", "resourceName": "Maximilian NEU", "unit": 100},
+          {"resourceId": "Taki-Eddine SAOULI", "resourceName": "Taki-Eddine SAOULI", "unit": 100}
+        ],
+        "info": "<p>Messagerie Stalwart<br>Déploiement eBrigade<br>Configuration TVHeadend<br>Tests fonctionnels</p>",
+        "DurationUnit": "day"
+      },
+      {
+        "TaskID": 7,
+        "TaskName": "Phase 6 : Tests et Validation",
+        "StartDate": "2025-03-11T07:00:00.000Z",
+        "EndDate": "2025-03-21T13:00:00.000Z",
+        "Duration": 4,
+        "Progress": 0,
+        "color": "121",
+        "Predecessor": "6FS",
+        "resources": [
+          {"resourceId": "Maximilian NEU", "resourceName": "Maximilian NEU", "unit": 100},
+          {"resourceId": "Taki-Eddine SAOULI", "resourceName": "Taki-Eddine SAOULI", "unit": 100}
+        ],
+        "info": "<p>Tests unitaires<br>Tests d'interconnexion<br>Validation performances<br>Corrections et optimisations</p>",
+        "DurationUnit": "day"
+      },
+      {
+        "TaskID": 8,
+        "TaskName": "Phase 7 : Finalisation et Documentation",
+        "StartDate": "2025-03-19T07:00:00.000Z",
+        "EndDate": "2025-04-01T13:00:00.000Z",
+        "Duration": 4,
+        "Progress": 0,
+        "color": "61",
+        "Predecessor": "7SS+2",
+        "resources": [
+          {"resourceId": "Maximilian NEU", "resourceName": "Maximilian NEU", "unit": 100},
+          {"resourceId": "Taki-Eddine SAOULI", "resourceName": "Taki-Eddine SAOULI", "unit": 100}
+        ],
+        "info": "<p>Rédaction du livrable 1<br>Préparation présentation orale<br>Documentation technique<br>Rapport de clôture</p>",
+        "DurationUnit": "day"
+      },
+      {
+        "TaskID": 9,
+        "TaskName": "Phase 8 : Clôture et Livraison",
+        "StartDate": "2025-04-04T07:00:00.000Z",
+        "EndDate": "2025-04-08T13:00:00.000Z",
+        "Duration": 2,
+        "Progress": 0,
+        "color": "31",
+        "Predecessor": "8FS",
+        "resources": [
+          {"resourceId": "Maximilian NEU", "resourceName": "Maximilian NEU", "unit": 100},
+          {"resourceId": "Taki-Eddine SAOULI", "resourceName": "Taki-Eddine SAOULI", "unit": 100}
+        ],
+        "info": "<p>Vérification finale<br>Livraison documentation<br>Préparation oral final</p>",
+        "DurationUnit": "day"
+      }
+    ]
+  }],
+  "resources": [
+    {"resourceId": "Maximilian NEU", "resourceName": "Maximilian NEU"},
+    {"resourceId": "Taki-Eddine SAOULI", "resourceName": "Taki-Eddine SAOULI"}
+  ],
+  "advanced": {
+    "columns": [
+      {"name": "Task ID", "width": "70", "show": true},
+      {"name": "Task Name", "width": "350", "show": true},
+      {"name": "Start Date", "width": "130", "show": true},
+      {"name": "End Date", "width": "130", "show": true},
+      {"name": "Duration", "width": "130", "show": false},
+      {"name": "Progress %", "width": "150", "show": false},
+      {"name": "Dependency", "width": "150", "show": false},
+      {"name": "Resources", "width": "200", "show": false},
+      {"name": "Color", "width": "100", "show": false}
+    ],
+    "zoomLevel": 0,
+    "timezone": "Europe/Paris",
+    "timezoneOffset": -60,
+    "dependencyConflict": "Add Offset to Dependency",
+    "dateFormat": "yyyy-MM-dd",
+    "timeFormat": "HH:mm",
+    "firstDayOfWeek": 0,
+    "workWeek": ["Tuesday", "Friday"],
+    "workTime": [
+      {"from": 9, "to": 12},
+      {"from": 13, "to": 15}
+    ],
+    "holidays": []
+  }
+}
