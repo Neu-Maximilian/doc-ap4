@@ -1,5 +1,12 @@
 # Tableaux config AP4
 
+## Configuration de l'AD
+
+Nom de domaine : `haut-rhin.gouv`
+Recovery password : `Admin2022`
+
+## Configuration du réseau
+
 ### **1. Équipements Réseau :**
 
 | **Type d'équipement**    | **Préfixe** | **Exemple de nommage**                       |
