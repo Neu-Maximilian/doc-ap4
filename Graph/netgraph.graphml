@@ -406,10 +406,11 @@ WIN SRV 2k22
               <y:Geometry height="100.0" width="71.0" x="1520.404820876181" y="985.308870026525"/>
               <y:Fill color="#CCCCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Calibri" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="117.98828125" x="-23.494140625" xml:space="preserve" y="104.0">SRV68COL02
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Calibri" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="117.98828125" x="-23.494140625" xml:space="preserve" y="104.0">SRV68COL02
 Proxmox VE 8.3.3
 Dell PowerEdge R360
-172.16.10.10</y:NodeLabel>
+LAN 1: 172.16.10.10
+LAN 2: 172.16.10.11</y:NodeLabel>
               <y:SVGNodeProperties usingVisualBounds="true"/>
               <y:SVGModel svgBoundsPolicy="0">
                 <y:SVGContent refid="15"/>
@@ -1953,10 +1954,11 @@ Alpine V.3.21
               <y:Geometry height="100.0" width="71.0" x="881.8252214744517" y="1124.4312407161801"/>
               <y:Fill color="#CCCCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Calibri" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="117.98828125" x="-23.494140625" xml:space="preserve" y="104.0">SRV68COL01
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Calibri" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="117.98828125" x="-23.494140625" xml:space="preserve" y="104.0">SRV68COL01
 Proxmox VE 8.3.3
 Dell PowerEdge R360
-172.16.15.10</y:NodeLabel>
+LAN 1: 172.16.15.10
+LAN 2: 172.16.15.11</y:NodeLabel>
               <y:SVGNodeProperties usingVisualBounds="true"/>
               <y:SVGModel svgBoundsPolicy="0">
                 <y:SVGContent refid="15"/>
@@ -2016,10 +2018,10 @@ TLV68COL01</y:NodeLabel>
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="349.083984375" width="398.39412929357604" x="1000.4745884240988" y="872.228515625"/>
+              <y:Geometry height="366.275390625" width="402.30819179357604" x="996.5605259240988" y="869.005859375"/>
               <y:Fill color="#FF9900" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#000000" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="398.39412929357604" x="0.0" xml:space="preserve" y="0.0">Pare-feu</y:NodeLabel>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#000000" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="402.30819179357604" x="0.0" xml:space="preserve" y="0.0">Pare-feu</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
@@ -2042,33 +2044,15 @@ TLV68COL01</y:NodeLabel>
         <node id="n49::n0">
           <data key="d6">
             <y:SVGNode>
-              <y:Geometry height="100.0" width="46.0" x="1044.7363071740988" y="1014.5"/>
-              <y:Fill color="#CCCCFF" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Calibri" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="87.8125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="104.5234375" x="-29.26171875" xml:space="preserve" y="104.0">FRW68COL01
-(Maître)
-DynFi FWA-4010
-DynFi v.3.00.000
-WAN : 172.16.0.11
-LAN : 172.16.1.253</y:NodeLabel>
-              <y:SVGNodeProperties usingVisualBounds="true"/>
-              <y:SVGModel svgBoundsPolicy="0">
-                <y:SVGContent refid="39"/>
-              </y:SVGModel>
-            </y:SVGNode>
-          </data>
-        </node>
-        <node id="n49::n1">
-          <data key="d6">
-            <y:SVGNode>
               <y:Geometry height="100.0" width="46.0" x="1273.4010086036456" y="1014.5"/>
               <y:Fill color="#CCCCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Calibri" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="87.8125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="104.5234375" x="-29.26171875" xml:space="preserve" y="104.0">FRW68COL02
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Calibri" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="101.78125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.3515625" x="-33.17578125" xml:space="preserve" y="104.0">FRW68COL02
 (Esclave)
 DynFi FWA-4010
 DynFi v.3.00.000
-WAN : 172.16.0.12
+WAN 0 : 172.16.0.12
+WAN 1 : 172.16.0.14
 LAN : 172.16.1.252
 </y:NodeLabel>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.095703125" x="-151.58367036348204" xml:space="preserve" y="-92.09375">VLAN 10 : 172.16.10.254/24
@@ -2084,8 +2068,9 @@ VLAN 90 : 172.16.90.254/24<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/><
                   <y:SmartNodeLabelModelParameter labelRatioX="0.5" labelRatioY="0.0" nodeRatioX="0.19347296847870343" nodeRatioY="0.0439452210829131" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
                 </y:ModelParameter>
               </y:NodeLabel>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="97.158203125" x="-247.44990985768573" xml:space="preserve" y="-105.810546875">WAN - CARP - VIP
-172.16.0.10<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.5" labelRatioY="0.5" nodeRatioX="-0.5" nodeRatioY="-0.5" offsetX="-215.51240985768573" offsetY="-8.65234375" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="100.380859375" x="-261.4186598576857" xml:space="preserve" y="-109.033203125">WAN - CARP
+VIP 1: 172.16.0.10
+VIP 2: 172.16.0.20<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.5" labelRatioY="0.5" nodeRatioX="-0.5" nodeRatioY="-0.5" offsetX="-215.51240985768573" offsetY="-8.65234375" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" rotationAngle="270.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="92.447265625" x="65.6023485821911" xml:space="preserve" y="-101.099609375">LAN - CARP - VIP
 172.16.1.254<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.5" nodeRatioX="0.5" nodeRatioY="-0.5" offsetX="19.602348582191098" offsetY="-8.65234375" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="20.079135286627206" y="58.871778284854145">
@@ -2098,6 +2083,26 @@ VLAN 90 : 172.16.90.254/24<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/><
               </y:NodeLabel>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="46.697265625" x="-178.80376809141012" xml:space="preserve" y="31.526602959548654">10.0.0.1<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.5" labelRatioY="-0.5" nodeRatioX="-0.5" nodeRatioY="-0.18473397040451345" offsetX="-132.10650246641012" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="46.697265625" x="-45.2365855241776" xml:space="preserve" y="31.526602959548654">10.0.0.2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4687202220242972" labelRatioY="-0.5" nodeRatioX="-0.5" nodeRatioY="-0.18473397040451345" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:SVGNodeProperties usingVisualBounds="true"/>
+              <y:SVGModel svgBoundsPolicy="0">
+                <y:SVGContent refid="39"/>
+              </y:SVGModel>
+            </y:SVGNode>
+          </data>
+        </node>
+        <node id="n49::n1">
+          <data key="d6">
+            <y:SVGNode>
+              <y:Geometry height="100.0" width="46.0" x="1044.7363071740988" y="1014.5"/>
+              <y:Fill color="#CCCCFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Calibri" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="101.78125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.3515625" x="-33.17578125" xml:space="preserve" y="104.0">FRW68COL01
+(Maître)
+DynFi FWA-4010
+DynFi v.3.00.000
+WAN 0 : 172.16.0.11
+WAN 1 : 172.16.0.13
+LAN : 172.16.1.253</y:NodeLabel>
               <y:SVGNodeProperties usingVisualBounds="true"/>
               <y:SVGModel svgBoundsPolicy="0">
                 <y:SVGContent refid="39"/>
@@ -2265,7 +2270,7 @@ entre les appareils et les réseaux.<y:LabelModel><y:SmartNodeLabelModel distanc
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e5" source="n9" target="n49::n0">
+    <edge id="e5" source="n9" target="n49::n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.5652451493549506" sy="6.429007917157264" tx="5.503510128229436" ty="0.6854831354316957">
@@ -2277,7 +2282,7 @@ entre les appareils et les réseaux.<y:LabelModel><y:SmartNodeLabelModel distanc
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e6" source="n7" target="n49::n0">
+    <edge id="e6" source="n7" target="n49::n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -2306,13 +2311,13 @@ entre les appareils et les réseaux.<y:LabelModel><y:SmartNodeLabelModel distanc
           <y:Path sx="0.0" sy="0.0" tx="1.1368683772161603E-12" ty="-2.2737367544323206E-13">
             <y:Point x="1555.9048208761822" y="810.4252906550514"/>
           </y:Path>
-          <y:LineStyle color="#800080" type="line" width="6.0"/>
+          <y:LineStyle color="#800080" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e8" source="n49::n0" target="n46::n0">
+    <edge id="e8" source="n49::n1" target="n46::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="1.0169894563221078" sy="-19.339703063592424" tx="0.0" ty="0.0">
@@ -2563,19 +2568,19 @@ entre les appareils et les réseaux.<y:LabelModel><y:SmartNodeLabelModel distanc
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e27" source="n46::n2" target="n49::n0">
+    <edge id="e27" source="n46::n2" target="n49::n1">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="-6.225920000000087" ty="-1.2831542920707761">
-            <y:Point x="917.3252214744517" y="1063.2168457079292"/>
+          <y:Path sx="0.0" sy="0.0" tx="-9.220600998820828" ty="26.210784642165436">
+            <y:Point x="917.3252214744517" y="1090.7107846421654"/>
           </y:Path>
-          <y:LineStyle color="#FF0000" type="line" width="6.0"/>
+          <y:LineStyle color="#FF0000" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n49::e0" source="n49::n1" target="n49::n0">
+    <edge id="n49::e0" source="n49::n0" target="n49::n1">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2585,7 +2590,7 @@ entre les appareils et les réseaux.<y:LabelModel><y:SmartNodeLabelModel distanc
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e28" source="n49::n0" target="n8">
+    <edge id="e28" source="n49::n1" target="n8">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-0.6337164160620432" sy="38.74859101967445" tx="31.194712854457748" ty="-2.7088555744675205">
@@ -2598,7 +2603,7 @@ entre les appareils et les réseaux.<y:LabelModel><y:SmartNodeLabelModel distanc
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e29" source="n49::n1" target="n8">
+    <edge id="e29" source="n49::n0" target="n8">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="44.72019039788938" tx="25.310595365673862" ty="-2.527622547095575">
@@ -2610,7 +2615,7 @@ entre les appareils et les réseaux.<y:LabelModel><y:SmartNodeLabelModel distanc
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e30" source="n7" target="n49::n1">
+    <edge id="e30" source="n7" target="n49::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="2.124893340419362" sy="5.891971331634068" tx="3.3949248894607535" ty="-45.34633911872368">
@@ -2624,7 +2629,7 @@ entre les appareils et les réseaux.<y:LabelModel><y:SmartNodeLabelModel distanc
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e31" source="n9" target="n49::n1">
+    <edge id="e31" source="n9" target="n49::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="1.0792654396061607" sy="12.747642802169594" tx="9.917714778382788" ty="-44.01560939738772">
@@ -2785,6 +2790,52 @@ entre les appareils et les réseaux.<y:LabelModel><y:SmartNodeLabelModel distanc
           <y:LineStyle color="#CC99FF" type="dashed_dotted" width="3.0"/>
           <y:Arrows source="none" target="none"/>
         </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="e36" source="n49::n0" target="n0">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e37" source="n49::n0" target="n46::n2">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-5.915417053794727" sy="30.451440015823437" tx="3.932222523799055" ty="0.7261548009341823">
+            <y:Point x="921.2574439982508" y="1094.9514400158234"/>
+          </y:Path>
+          <y:LineStyle color="#FF0000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e38" source="n8" target="n15::n2">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-0.3617955881920807" sy="5.785051271984457" tx="-5.132626544720324" ty="-1.7978442525197806">
+            <y:Point x="1550.7721943314607" y="816.2103419270359"/>
+          </y:Path>
+          <y:LineStyle color="#800080" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="100.36562850357541" y="28.00001477859837">
+            <y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="right" ratio="0.5" segment="0"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
       </data>
     </edge>
   </graph>
